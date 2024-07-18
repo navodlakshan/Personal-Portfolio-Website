@@ -438,10 +438,15 @@ section{
 
 .skill-box{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-box span {
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 .content-btn > .content:not(:first-child){
