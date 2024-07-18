@@ -285,18 +285,19 @@ section{
 
 .img-hero img{
     position: relative;
-    width: 475px;
+    width: 436px;
     height: 456px;
     z-index: 10;
     align-content: center;
-    padding-right: 78px;
+    padding-left: 37px;
+    /*padding-right: 58px;*/
     padding-top: 50px;
 }
 
 .rotate-text{
     position: absolute;
     top: 4%;
-    left: -53px;
+    left: -13px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,7 +310,7 @@ section{
     width: 442px;
     height: 442px;
     background: red;
-    border: 6px solid #eaeef0;
+    border: 5px solid #eaeef0;
     border-radius: 50%;
     z-index: 1;
     overflow: hidden;
@@ -344,12 +345,13 @@ section{
 }
 
 .text b{
+    font-family: "Arial Black";
     position: absolute;
     transform-origin: 0 247px;
     display: block;
     top: 0;
     left: 50%;
-    font-size: 1.2rem;
+    font-size: 1.27rem;
 }
 
 /* ==================== About section css code ============================ */
@@ -432,6 +434,14 @@ section{
 
 .text-box{
     margin: .8rem 0;
+}
+
+.skill-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .content-btn > .content:not(:first-child){
