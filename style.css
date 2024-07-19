@@ -565,6 +565,11 @@ section{
     cursor: pointer;
 }
 
+.readMore:hover{
+    background: var(--gradient-color-bg);
+    color: #fff;
+}
+
 .proposal{
     position: relative;
     display: flex;
