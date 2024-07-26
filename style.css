@@ -76,13 +76,6 @@ ul.navlist{
     color: transparent;
 }
 
-.right-header{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    grid-gap: .8rem;
-}
-
 .btn{
     background: var(--gradient-color-bg);
     color: #fff;
