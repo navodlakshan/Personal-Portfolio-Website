@@ -19,7 +19,6 @@
     --hover-box-shadow:rgba(0,0,0,0.19)0px 10px 20px,
     rgba(0,0,0,0.23)0px 6px 6px;
     --gradient-white-bg2:linear-gradient(98deg,#e5eef7 0%,#fff 100%);
-    --black:#000;
 }
 
 a{
@@ -97,26 +96,12 @@ ul.navlist{
     box-shadow: var(--hover-box-shadow);
 }
 
-/* ==================== Dark & Light Mode Switch css code ============================ */
-.themeSwitch{
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    background: var(--black);
-    cursor: pointer;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
 .menu-icon{
     position: relative;
     display: block;
     width: 30px;
     height: 30px;
     cursor: pointer;
-    /* background: blue; */
 }
 
 .menu-icon .bar,
@@ -761,102 +746,6 @@ section{
     color: var(--font-color);
     margin: .5rem 0 1rem 0;
 }
-
-
-/* ==================== Blog section css code ============================ */
-
-/*.blog-box{*/
-/*    padding: .5rem !important;*/
-/*}*/
-
-/*.blog{*/
-/*    position: relative;*/
-/*}*/
-
-/*.cards{*/
-/*    padding: 1rem .1rem;*/
-/*}*/
-
-/*.card{*/
-/*    background: var(--gradient-white-bg2);*/
-/*    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;*/
-/*    padding: 1rem;*/
-/*    border-radius: 10px;*/
-/*}*/
-
-/*.card-top{*/
-/*    overflow: hidden;*/
-/*    border-radius: 10px 10px 0 0;*/
-/*}*/
-
-/*.card img{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    object-fit: cover;*/
-/*    transition: .3s;*/
-/*    display: block;*/
-/*}*/
-
-/*.card:hover img{*/
-/*    transform: scale(1.1);*/
-/*}*/
-
-/*.card-info{*/
-/*    padding-bottom: .5rem;*/
-/*}*/
-
-/*.card-info h2{*/
-/*    font-size: 1.2rem;*/
-/*    margin-top: 1rem;*/
-/*}*/
-
-/*.data{*/
-/*    display: block;*/
-/*    margin: .2rem 0;*/
-/*}*/
-
-/*.card .excerpt{*/
-/*    color: var(--font-color);*/
-/*    margin-bottom: 1.5rem;*/
-/*}*/
-
-/*.swiper-pagination{*/
-/*    position: relative !important;*/
-/*    margin-top: 3rem;*/
-/*}*/
-
-/*.swiper-pagination-bullet{*/
-/*    height: 10px !important;*/
-/*    width: 30px !important;*/
-/*    border-radius: 25px !important;*/
-/*    background: var(--gradient-color-bg) !important;*/
-/*}*/
-
-/*.blog .showcase img{*/
-/*    position: absolute;*/
-/*    width: 90px;*/
-/*    height: 90px;*/
-/*}*/
-
-/*.blog .showcase .circle{*/
-/*    filter: blur(3px);*/
-/*}*/
-
-/*.blog .showcase .ring{*/
-/*    top: 0;*/
-/*    left: -1%;*/
-/*}*/
-
-/*.blog .showcase .half-ring{*/
-/*    top: 10%;*/
-/*    right: 10%;*/
-/*}*/
-
-/*.blog .showcase .second-circle{*/
-/*    top: 30%;*/
-/*    left: 2%;*/
-/*    filter: blur(1px);*/
-/*}*/
 
 
 /* ==================== Contact section css code ============================ */
