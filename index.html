@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lakshan Perera || Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Lakshan Perera | Software Engineer & UI/UX Designer</title>
+    <meta name="description" content="Personal portfolio of Navod Lakshan Perera, Software Engineer and UI/UX Designer from Sri Lanka">
 
-    <!-- boxicon css link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
+    <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico" sizes="any">
     <link rel="icon" href="img/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/icon.png">
-  </head>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 <body>
 
-<!--=========================Navigation Bar Section=========================-->
+<!-- Preloader -->
+<div class="preloader">
+    <div class="loader"></div>
+</div>
 
+<!-- Navigation Bar -->
 <div class="overlay"></div>
 <header>
     <a href="#" class="logo"><img src="img/icon.png" width="60px" height="60px" ></a>
@@ -34,64 +46,59 @@
     <div>
         <div class="menu-icon">
             <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
     </div>
 </header>
 
-<!--=========================Home Section=========================-->
-
+<!-- Home Section -->
 <section class="home" id="home">
-    <div class="hero-info">
-        <h3>Hello, Welcome To my World !!</h3>
-        <h1>Hi, <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50px"> I'm Navod Lakshan Perera</h1>
+    <div class="hero-info" data-aos="fade-up" data-aos-delay="300">
+        <h3>Hello, Welcome To My World!</h3>
+        <h1>Hi, <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="50" alt="Waving hand"> I'm Navod Lakshan Perera</h1>
 
         <div class="text-animate">
             <h2>Software Engineer</h2>
         </div>
 
-        <p>I live in Colombo, Sri Lanka. I am currently studying as an undergraduate student at Ruhuna University. I am studying BICT.(Hons) Software Engineering in Information and Communication Technology. Apart from coding, I like to spend time freely. But I love coding!!</p>
-        <br>
-        <h3>"If you are born poor. It's not your mistake, But if you die poor. It's your mistake!"</h3>
-         <h3>- Bill Gates</h3>
+        <p>I'm a passionate software engineer specializing in frontend development and UI/UX design based in Colombo, Sri Lanka. Currently pursuing my BICT (Hons) in Software Engineering at Ruhuna University, I bring creativity and technical expertise to every project.</p>
 
-        <br>
+        <div class="quote-box">
+            <h3>"If you are born poor, it's not your mistake. But if you die poor, it's your mistake!"</h3>
+            <h4>- Bill Gates</h4>
+        </div>
 
-        <div class="dtn-box">
-            <a href="#contact" class="btn">Hire Me Now ! <i class='bx bx-right-arrow-alt' ></i></a> &nbsp; &nbsp;
+        <div class="btn-box">
+            <a href="#contact" class="btn">Hire Me Now! <i class='bx bx-right-arrow-alt'></i></a>
             <a href="img/CV_Document.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
         </div>
 
-        <br>
-
         <div class="social-media">
             <div class="bg-icon">
-                <a href="https://www.linkedin.com/in/navod-lakshan-9949b1248/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/navod-lakshan-9949b1248/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
                 <span></span>
             </div>
-
             <div class="bg-icon">
-                <a href="https://github.com/navodlakshan"><i class='bx bxl-github'></i></a>
+                <a href="https://github.com/navodlakshan" aria-label="GitHub"><i class='bx bxl-github'></i></a>
                 <span></span>
             </div>
-
             <div class="bg-icon">
-                <a href="https://twitter.com/NavodLaks6517"><i class='bx bxl-twitter'></i></a>
+                <a href="https://twitter.com/NavodLaks6517" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
                 <span></span>
             </div>
-
             <div class="bg-icon">
-                <a href="https://www.instagram.com/navod.lakshan_/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.instagram.com/lakshan.k49/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
                 <span></span>
             </div>
-
             <div class="bg-icon">
-                <a href="https://www.facebook.com/navodlakshan.kankaniga"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.facebook.com/navodlakshan.kankaniga" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
                 <span></span>
             </div>
         </div>
     </div>
     <div class="img-hero">
-        <img src="img/hero1.png" alt="">
+        <img src="img/hero1.png" alt="Navod Lakshan Perera">
         <div class="rotate-text">
             <div class="text">
                 <p>I'm Frontend Developer   ***   I'm UI/UX Designer   ***   </p>
@@ -101,610 +108,646 @@
     </div>
 </section>
 
-<!--=========================About Section=========================-->
-
+<!-- About Section -->
 <section class="about" id="about">
-    <div class="about-img">
-        <img src="img/aboutMe.png" alt="" class="aboutHero">
+    <div class="about-img" data-aos="fade-right">
+        <img src="img/aboutMe.png" alt="About Navod" class="aboutHero" width="600" height="600">
         <div class="showcase-ring">
-            <img src="shapes/ring.png" class="ring">
-            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/ring.png" class="ring" alt="Decorative ring">
+            <img src="shapes/circle.png" class="circle" alt="Decorative circle">
         </div>
     </div>
-    <div class="about-content">
+    <div class="about-content" data-aos="fade-left">
         <h2 class="heading">About Me</h2>
-        <h3>BICT. (Hons) Software Engineering <br>
-            I am an Undergraduate Student at University of Ruhuna.</h3>
-        <p>I am mostly interested in frontend development of software and websites. I am a Frontend & UI/UX designer. I have some knowledge about backend development. I studied Java, Python, JavaScript, Arduino, php, MySQL, C, Angular, HTML, CSS etc.</p>
-        <br>
-        <div class="form">
-        <p>
-            <span><b>Name: </b></span> &nbsp; Navod Lakshan Perera &emsp;&emsp;&emsp;
-            <span><b>Address: </b></span> &nbsp; Colombo, Sri Lanka <br>
-            <span><b>Birthday: </b></span> &nbsp; 4<sup>th</sup> of January 2001 &emsp;&emsp;&emsp;&nbsp;
-            <span><b>Age: </b></span> &nbsp; 23 <br>
-            <span><b>Gender: </b></span> &nbsp; Male &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <span><b>Email: </b></span> &nbsp; navodlakshanperera@gmail.com <br>
-            <span><b>Language: </b></span> &nbsp; Sinhala, English &emsp;&emsp;&emsp;&emsp;&nbsp;
-            <span><b>Degree: </b></span> &nbsp; BICT. (Hons) Degree <br>
-            <span><b>Contact No: </b></span> &nbsp; 0758189134 &emsp;&emsp;&emsp;
-        </p>
+        <h3>BICT. (Hons) Software Engineering<br>
+            Undergraduate at University of Ruhuna</h3>
+        <p>I specialize in frontend development and UI/UX design with solid backend knowledge. My technical stack includes Java, Python, JavaScript, PHP, MySQL, C, Angular, HTML, CSS and various frameworks. I'm passionate about creating intuitive, user-friendly digital experiences.</p>
+
+        <div class="personal-info">
+            <div class="info-item">
+                <span class="info-label">Name:</span>
+                <span class="info-value">Navod Lakshan Perera</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Address:</span>
+                <span class="info-value">Colombo, Sri Lanka</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Birthday:</span>
+                <span class="info-value">4<sup>th</sup> January 2001</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Age:</span>
+                <span class="info-value">24</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Gender:</span>
+                <span class="info-value">Male</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span class="info-value">navodlakshanperera@gmail.com</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Language:</span>
+                <span class="info-value">Sinhala, English</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Degree:</span>
+                <span class="info-value">BICT. (Hons) University Of Ruhuna </span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Contact No:</span>
+                <span class="info-value">0758189134</span>
+            </div>
         </div>
-        <br>
-        <div class="about-btn">
-            <button class="active">Main Skills</button>
-            <button>Courses</button>
-            <button>Education</button>
-            <button>Extracurricular Activities</button>
+
+        <div class="about-tabs">
+            <button class="tab-btn active" data-tab="skills">Main Skills</button>
+            <button class="tab-btn" data-tab="courses">Courses</button>
+            <button class="tab-btn" data-tab="education">Education</button>
+            <button class="tab-btn" data-tab="activities">Activities</button>
         </div>
-        <div class="content-btn">
-            <div class="content">
-                <div class="skill-box">
-                    <span>Programming Languages</span>
-                    <hr width="80%" size="3" color="#FFCDD2">
-                    <div class="servicesItem">
-                        <div class="icon-services">&emsp;
-                            <i class='bx bxl-html5' ></i>&emsp;
-                            <i class='bx bxl-css3' ></i>&emsp;
-                            <i class='bx bxl-java' ></i>&emsp;
-                            <i class='bx bxl-javascript' ></i>&emsp;
-                            <i class='bx bxl-php' ></i>&emsp;
-                            <i class='bx bxl-python' ></i>&emsp;
+
+        <div class="tab-content">
+            <div class="content active" id="skills-content">
+                <div class="skill-category">
+                    <h4>Programming Languages</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-css3'></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-java'></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-php'></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-python'></i>
+                            <span>Python</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="skill-box">
-                    <span>Frameworks</span>
-                    <hr width="80%" size="3" color="#FFCDD2">
-                    <div class="servicesItem">
-                        <div class="icon-services">&emsp;
-                            <i class='bx bxl-angular' ></i>&emsp;
-                            <i class='bx bxl-react' ></i>&emsp;
-                            <i class='bx bxl-spring-boot'></i>&emsp;
+                <div class="skill-category">
+                    <h4>Frameworks & Libraries</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class='bx bxl-angular'></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-react'></i>
+                            <span>React</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="skill-box">
-                    <span>Programming Tools</span>
-                    <hr width="80%" size="3" color="#FFCDD2">
-                    <div class="servicesItem">
-                        <div class="icon-services">&emsp;
-                            <i class='bx bxl-figma'></i>&emsp;
-                            <i class='bx bxl-visual-studio'></i>&emsp;
-                            <i class='bx bxl-git'></i>&emsp;
-                            <i class='bx bxl-wordpress'></i>&emsp;
+                <div class="skill-category">
+                    <h4>Tools & Platforms</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class='bx bxl-figma'></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-visual-studio'></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-git'></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-wordpress'></i>
+                            <span>WordPress</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="content">
-                <div class="text-box">
-                    <span>HTML and CSS in depth</span>
+            <div class="content" id="courses-content">
+                <div class="course-item">
+                    <h4>HTML and CSS in depth</h4>
                     <p>Coursera</p>
-                    <a href="#" class="certificate"><i class='bx bx-medal'></i>Certificate</a>
-                    <br><br>
+                    <a href="#" class="certificate"><i class='bx bx-medal'></i> View Certificate</a>
                 </div>
-                <div class="text-box">
-                    <span>Programming in Python</span>
+                <div class="course-item">
+                    <h4>Programming in Python</h4>
                     <p>University Of Moratuwa</p>
-                    <a href="#" class="certificate"><i class='bx bx-medal'></i>Certificate</a>
-                    <br><br>
+                    <a href="#" class="certificate"><i class='bx bx-medal'></i> View Certificate</a>
                 </div>
-                <div class="text-box">
-                    <span>Web Development</span>
+                <div class="course-item">
+                    <h4>Web Development</h4>
                     <p>University Of Moratuwa</p>
-                    <a href="#" class="certificate"><i class='bx bx-medal'></i>Certificate</a>
-                    <br><br>
+                    <a href="#" class="certificate"><i class='bx bx-medal'></i> View Certificate</a>
                 </div>
-                <div class="text-box">
-                    <span>General English Diploma</span>
+                <div class="course-item">
+                    <h4>General English Diploma</h4>
                     <p>University Of Colombo</p>
-                    <a href="img/General English Diploma.pdf" class="certificate"><i class='bx bx-medal'></i>Certificate</a>
-                    <br><br>
+                    <a href="img/General English Diploma.pdf" class="certificate"><i class='bx bx-medal'></i> View Certificate</a>
                 </div>
             </div>
 
-
-            <div class="content">
-                <div class="text-box">
-                    <span>Kottawa Ananda College</span>
+            <div class="content" id="education-content">
+                <div class="education-item">
+                    <h4>Kottawa Ananda College</h4>
                     <p>2006 - 2016</p>
                 </div>
-                <div class="text-box">
-                    <span>Lumbini College, Colombo 05</span>
-
-                    <p>2017 - 2019</p><br>
-                    <p>G.C.E. (A/L) Examination</p>
-                    <hr width="30%" size="3" color="#B0BEC5"><br>
-                    <p>Year Of Examination : 2020</p>
-                    <p>Index Number : 1180678</p>
-                    <p>Subject Stream : Engineering Technology</p>
-                    <p>Z-Score : 1.6770</p><br>
-
-                    <table class="table">
-                        <tr>
-                            <th>SUBJECT</th>
-                            <th>GRADE</th>
-                        </tr>
-                        <tr>
-                            <td>General English</td>
-                            <td>S</td>
-                        </tr>
-                        <tr>
-                            <td>Information & Communication Technology</td>
-                            <td>C</td>
-                        </tr>
-                        <tr>
-                            <td>Engineering Technology</td>
-                            <td>B</td>
-                        </tr>
-                        <tr>
-                            <td>Science For Technology</td>
-                            <td>B</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="text-box">
-                    <span>University of Ruhuna, Sri Lanka</span>
-                    <p>2022 - Current <br> BICT (Hons) (Software Engineering) </p>
-                </div>
-            </div>
-
-            <div class="content">
-                <div class="text-box">
-                    <span>Member of ICT Circle</span>
-                    <p>Faculty Of Technology, University Of Ruhuna </p>
-                </div>
-                <div class="text-box">
-                    <span>Member Of Sri Lanka Federation Of Youth Club</span>
-                    <p>2015 - 2020 <br> Mem.No: CO/MH/427/67156 <br> Youth Club: Sanchalana </p>
-                </div>
-                <div class="text-box">
-                    <span>Member Of Technology Society</span>
-                    <p>2017 - 2019 <br> Lumbini College, Colombo 05 </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--=========================Skills Section=========================-->
-
-<section class="down-box" id="skills">
-
-        <div class="skills">
-            <div class="container">
-                <div class="skillBox">
-                    <div class="main-text">
-                        <h2 class="heading">My Skills</h2>
-                        <span>Let Me Help you</span>
-                    </div>
-                    <div class="skill-wrap">
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="90">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                HTML
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="85">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                CSS
-                            </div>
-                        </div>
-
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="40">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                JavaScript
-                            </div>
-                        </div>
-
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="60">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                Java
-                            </div>
-                        </div>
-
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="40">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                php
-                            </div>
-                        </div>
-
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="40">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                Python
-                            </div>
-                        </div>
-                        &nbsp;
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="85">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                C
-                            </div>
-                        </div>
-
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="75">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                Angular
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="30">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                Spring Boot
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <div class="outer-circle">
-                                <div class="inner-circle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                        <defs>
-                                            <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                            </linearGradient>
-                                        </defs>
-                                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                    </svg>
-                                    <h2 class="counter">
-                                        <span data-target="85">0</span>%
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="sk-title">
-                                UI/UX Design
-                            </div>
-                        </div>
-
+                <div class="education-item">
+                    <h4>Lumbini College, Colombo 05</h4>
+                    <p>2017 - 2019</p>
+                    <div class="exam-details">
+                        <h5>G.C.E. (A/L) Examination</h5>
+                        <p>Year: 2020 | Index: 1180678</p>
+                        <p>Stream: Engineering Technology | Z-Score: 1.6770</p>
+                        <table class="grades-table">
+                            <tr>
+                                <th>Subject</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td>General English</td>
+                                <td>S</td>
+                            </tr>
+                            <tr>
+                                <td>ICT</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>Engineering Technology</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Science For Technology</td>
+                                <td>B</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
+                <div class="education-item">
+                    <h4>University of Ruhuna, Sri Lanka</h4>
+                    <p>2022 - Present</p>
+                    <p>BICT (Hons) in Software Engineering</p>
+                </div>
+            </div>
+
+            <div class="content" id="activities-content">
+                <div class="activity-item">
+                    <h4>Member of ICT Circle</h4>
+                    <p>Faculty Of Technology, University Of Ruhuna</p>
+                </div>
+                <div class="activity-item">
+                    <h4>Member Of Sri Lanka Federation Of Youth Club</h4>
+                    <p>2015 - 2020</p>
+                    <p>Mem.No: CO/MH/427/67156</p>
+                    <p>Youth Club: Sanchalana</p>
+                </div>
+                <div class="activity-item">
+                    <h4>Member Of Technology Society</h4>
+                    <p>2017 - 2019</p>
+                    <p>Lumbini College, Colombo 05</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--=========================Services Section=========================-->
+<!-- Skills Section -->
+<section class="skills-section" id="skills">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2 class="heading">My Skills</h2>
+            <p>Technologies I work with</p>
+        </div>
 
-<section class="services" id="services">
-    <div class="main-text">
-        <h2 class="heading">My Services</h2>
-        <span>what i will do for you</span>
-    </div>
-
-    <div class="allServices">
-
-        <div class="servicesItem">
-            <div class="icon-services">
-                <i class='bx bx-code-alt' ></i>
-                <span></span>
+        <div class="skills-container">
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                </div>
+                <h3>HTML</h3>
             </div>
-            <h3>Web Development</h3>
-            <p>Description: <br>
-                In the realm of web development, I bring dynamic and responsive websites to life.
-                My expertise spans across various modern technologies, ensuring that each site is not only visually
-                appealing but also functional and user-friendly. Whether it’s a simple blog or a complex e-commerce platform,
-                I am committed to delivering high-quality web solutions that meet your business needs.
-               </p>
-        </div>
 
-        <div class="servicesItem">
-            <div class="icon-services">
-                <i class='bx bx-desktop' ></i>
-                <span></span>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                </div>
+                <h3>CSS</h3>
             </div>
-            <h3>UI / UX Design</h3>
-            <p>Description: <br>
-                Great design is at the heart of a successful user experience.
-                My UI/UX design services focus on creating intuitive, engaging, and aesthetically pleasing interfaces.
-                By understanding the user journey, I craft designs that not only look good but also enhance usability and user satisfaction.
-                <br><br><br>
-            </p>
-        </div>
 
-        <div class="servicesItem">
-            <div class="icon-services">
-                <i class='bx bx-layer' ></i>
-                <span></span>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">40%</div>
+                </div>
+                <h3>JavaScript</h3>
             </div>
-            <h3>App Development</h3>
-            <p>Description: <br>
-                From concept to deployment, I offer comprehensive app development services for both iOS and Android platforms.
-                My approach ensures that each app is built to meet your specifications, providing a seamless experience across all devices.
-                Leveraging the latest technologies, I develop apps that are both powerful and scalable.
-                <br>
-            </p>
-        </div>
 
-        <div class="servicesItem">
-            <div class="icon-services">
-                <i class=' bx bx-image-alt' ></i>
-                <span></span>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">60%</div>
+                </div>
+                <h3>Java</h3>
             </div>
-            <h3>Frontend Development</h3>
-            <p>Description: <br>
-                Specializing in frontend development, I create visually compelling and highly interactive web applications.
-                Utilizing modern frameworks and libraries like React, Angular, and Vue.js, I ensure that the frontend of your
-                web application is not only beautiful but also performant and accessible.
-                <br><br><br>
-            </p>
-        </div>
-    </div>
 
-    <div class="proposal">
-        <div class="text-box">
-            <span>Get It Touch</span>
-            <h3>Have a Project On Your Mind</h3>
-            <a href="#contact" class="btn">Contact Me</a>
-        </div>
-        <img src="img/support.png" class="first">
-    </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">40%</div>
+                </div>
+                <h3>PHP</h3>
+            </div>
 
-    <div class="showcase">
-        <img src="shapes/ring.png" class="ring">
-        <img src="shapes/circle.png" class="circle">
-        <img src="shapes/circle.png" class="circle2">
-        <img src="shapes/circle.png" class="circle3">
-        <img src="shapes/half-ring.png" class="half-ring">
-    </div>
-</section>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="350">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">40%</div>
+                </div>
+                <h3>Python</h3>
+            </div>
 
-<!--=========================Portfolio Section=========================-->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                </div>
+                <h3>C</h3>
+            </div>
 
-<section class="portfolio" id="portfolio">
-    <div class="main-text">
-        <h2 class="heading">My Projects</h2>
-        <span text-style="upercase">Projects created by me</span>
-    </div>
-    <div class="fillter-buttons">
-        <button class="button mixitup-control-active" data-filter="all">All Work</button>
-        <button class="button" data-filter=".web">Web Development</button>
-        <button class="button" data-filter=".uiux">UI/UX Design</button>
-        <button class="button" data-filter=".app">App development</button>
-    </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="450">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                </div>
+                <h3>Angular</h3>
+            </div>
 
-    <div class="portfolio-gallery">
-        <div class="portfolio-box mix uiux">
-            <div class="portfolio-content">
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">30%</div>
+                </div>
+                <h3>React</h3>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="550">
+                <div class="skill-progress">
+                    <svg class="progress-circle" viewBox="0 0 180 180">
+                        <circle class="bg" cx="90" cy="90" r="80"></circle>
+                        <circle class="progress" cx="90" cy="90" r="80" style="stroke-dashoffset: 465;"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                </div>
                 <h3>UI/UX Design</h3>
-                <p>I am thrilled to share a UI/UX design prototype developed by me for the Lucky Lanka company. As part of our third-year group activities at Ruhunu University, we aimed to create an efficient HR & Inventory Management system for Lucky Lanka.</p>
-                <a href="https://www.linkedin.com/posts/navod-lakshan-9949b1248_uiuxdesign-hrmanagement-inventorymanagement-activity-7220125369851338752-ofrD?utm_source=share&utm_medium=member_desktop" class="readMore"><i class='bx bxl-linkedin'></i> LinkedIn</a>
-                <span></span>
-            </div>
-            <div class="portfolio-img">
-                <img src="img/portfolio/1.png" alt="Lucky Lanka company">
-            </div>
-        </div>
-
-        <div class="portfolio-box mix web">
-            <div class="portfolio-content">
-                <h3>Portfolio Website</h3>
-                <p>I'm thrilled to unveil my new portfolio website, showcasing my work, skills, and achievements in one place! Developed using HTML, CSS, and JavaScript, this site is designed to give you an interactive and engaging experience.</p>
-                <a href="https://github.com/navodlakshan/Personal-Portfolio-Website" class="readMore"><i class='bx bxl-github'></i> GitHub</a>
-            </div>
-            <div class="portfolio-img">
-                <img src="img/portfolio/3.png" alt="Portfolio Website">
-            </div>
-        </div>
-
-        <div class="portfolio-box mix app">
-            <div class="portfolio-content">
-                <h3>HR and Inventory Management System</h3>
-                <p>Developing software solutions for human resources and inventory management tasks.</p>
-                <a href="https://github.com/navodlakshan/HR_and_Inventory_Management_System" class="readMore"><i class='bx bxl-github'></i> GitHub</a>
-            </div>
-            <div class="portfolio-img">
-                <img src="img/portfolio/HR.png" alt="HR and Inventory Management System">
             </div>
         </div>
     </div>
-
 </section>
 
+<!-- Services Section -->
+<section class="services" id="services">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2 class="heading">My Services</h2>
+            <p>What I can do for you</p>
+        </div>
 
-<!--=========================Contact Section=========================-->
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>I create dynamic, responsive websites using modern technologies. From simple blogs to complex e-commerce platforms, I deliver high-quality web solutions tailored to your business needs with clean, efficient code.</p>
+                <a href="#contact" class="service-link">Get Started <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
 
-<section class="down-box" id="contact">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="service-icon">
+                    <i class='bx bx-desktop'></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>I craft intuitive, engaging interfaces that enhance user satisfaction. Through careful research and prototyping, I design digital experiences that are both aesthetically pleasing and highly functional.</p>
+                <a href="#contact" class="service-link">Get Started <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
 
-<div class="contactSkills">
-    <div class="contact-info">
-        <div class="main-text">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class='bx bx-layer'></i>
+                </div>
+                <h3>App Development</h3>
+                <p>From concept to deployment, I build cross-platform mobile applications that deliver seamless user experiences. My apps are performant, scalable, and designed to meet your specific requirements.</p>
+                <a href="#contact" class="service-link">Get Started <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="service-icon">
+                    <i class='bx bx-image-alt'></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Specializing in modern frontend frameworks like React and Angular, I create interactive web applications with responsive designs that work flawlessly across all devices and screen sizes.</p>
+                <a href="#contact" class="service-link">Get Started <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+
+        <div class="cta-box" data-aos="fade-up">
+            <div class="cta-content">
+                <h3>Have a Project in Mind?</h3>
+                <p>Let's discuss how I can help bring your ideas to life</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+            <img src="img/support.png" alt="Support illustration" class="cta-image">
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2 class="heading">My Projects</h2>
+            <p>Some of my recent work</p>
+        </div>
+
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+            <button class="filter-btn" data-filter="app">App Development</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item mix uiux" data-aos="fade-up" data-aos-delay="100">
+                <div class="portfolio-img">
+                    <img src="img/portfolio/1.png" alt="Lucky Lanka HR System">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>Lucky Lanka HR System</h3>
+                            <p>UI/UX Design for HR & Inventory Management</p>
+                            <div class="portfolio-links">
+                                <a href="https://www.linkedin.com/posts/navod-lakshan-9949b1248_uiuxdesign-hrmanagement-inventorymanagement-activity-7220125369851338752-ofrD?utm_source=share&utm_medium=member_desktop" target="_blank" aria-label="View on LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item mix web" data-aos="fade-up" data-aos-delay="150">
+                <div class="portfolio-img">
+                    <img src="img/portfolio/3.png" alt="Portfolio Website">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>Portfolio Website</h3>
+                            <p>Personal portfolio built with HTML, CSS & JavaScript</p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/navodlakshan/Personal-Portfolio-Website" target="_blank" aria-label="View on GitHub"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item mix app" data-aos="fade-up" data-aos-delay="200">
+                <div class="portfolio-img">
+                    <img src="img/portfolio/HR.png" alt="HR Management System">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3>HR Management System</h3>
+                            <p>Full-stack HR and Inventory Management solution</p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/navodlakshan/HR_and_Inventory_Management_System" target="_blank" aria-label="View on GitHub"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2 class="heading">Testimonials</h2>
+            <p>What people say about my work</p>
+        </div>
+
+<!--        <div class="testimonial-slider swiper">-->
+<!--            <div class="swiper-wrapper">-->
+<!--                <div class="testimonial-item swiper-slide">-->
+<!--                    <div class="testimonial-content">-->
+<!--                        <div class="quote-icon">-->
+<!--                            <i class='bx bxs-quote-alt-left'></i>-->
+<!--                        </div>-->
+<!--                        <p>Navod delivered an exceptional UI design for our HR system. His attention to detail and understanding of user needs resulted in a highly intuitive interface that our team loves using daily.</p>-->
+<!--                        <div class="testimonial-author">-->
+<!--                            <img src="img/testimonials/1.jpg" alt="Client">-->
+<!--                            <div class="author-info">-->
+<!--                                <h4>John Smith</h4>-->
+<!--                                <span>CEO, Lucky Lanka</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="testimonial-item swiper-slide">-->
+<!--                    <div class="testimonial-content">-->
+<!--                        <div class="quote-icon">-->
+<!--                            <i class='bx bxs-quote-alt-left'></i>-->
+<!--                        </div>-->
+<!--                        <p>Working with Navod on our university project was a pleasure. His frontend skills brought our application to life, and his problem-solving approach helped us overcome technical challenges efficiently.</p>-->
+<!--                        <div class="testimonial-author">-->
+<!--                            <img src="img/testimonials/2.jpg" alt="Client">-->
+<!--                            <div class="author-info">-->
+<!--                                <h4>Sarah Johnson</h4>-->
+<!--                                <span>Project Manager</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="testimonial-item swiper-slide">-->
+<!--                    <div class="testimonial-content">-->
+<!--                        <div class="quote-icon">-->
+<!--                            <i class='bx bxs-quote-alt-left'></i>-->
+<!--                        </div>-->
+<!--                        <p>Navod's portfolio website redesign exceeded our expectations. He captured our brand perfectly while improving usability and performance. Highly recommend his web development services.</p>-->
+<!--                        <div class="testimonial-author">-->
+<!--                            <img src="img/testimonials/3.jpg" alt="Client">-->
+<!--                            <div class="author-info">-->
+<!--                                <h4>Michael Brown</h4>-->
+<!--                                <span>Marketing Director</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="swiper-pagination"></div>-->
+<!--        </div>-->
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
             <h2 class="heading">Contact Me</h2>
-            <span>get in touch with me</span>
+            <p>Let's work together</p>
         </div>
-        <form action="send_email.php" method="post">
-            <div class="input-box">
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
+
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-card">
+                    <i class='bx bx-envelope'></i>
+                    <h3>Email</h3>
+                    <p>navodlakshanperera@gmail.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <i class='bx bx-phone'></i>
+                    <h3>Phone</h3>
+                    <p>+94 758 189 134</p>
+                </div>
+
+                <div class="contact-card">
+                    <i class='bx bx-map'></i>
+                    <h3>Location</h3>
+                    <p>Colombo, Sri Lanka</p>
+                </div>
             </div>
-            <input type="email" placeholder="Sender Email" required>
-            <input type="text" placeholder="Subject" required>
-            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <div class="formBtn">
-                <button type="submit" class="btn">Send Message</button>
+
+            <div class="contact-form" data-aos="fade-left">
+                <form id="contactForm" action="send_email.php" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message <i class='bx bx-send'></i></button>
+                    <div class="form-message"></div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
-</div>
 </section>
 
-<!--=========================Footer Section=========================-->
-
+<!-- Footer -->
 <footer>
-    <p>Copyright © 2024 by <span>Navod Lakshan Perera</span> || All Right Reservd.</p>
-    <p>
-        <a href="https://www.linkedin.com/in/navod-lakshan-9949b1248/"><i class='bx bxl-linkedin'></i></a> &nbsp;&nbsp;
-        <a href="https://github.com/navodlakshan"><i class='bx bxl-github'></i></a> &nbsp;&nbsp;
-        <a href="https://twitter.com/NavodLaks6517"><i class='bx bxl-twitter'></i></a> &nbsp;&nbsp;
-        <a href="https://www.instagram.com/navod.lakshan_/"><i class='bx bxl-instagram'></i></a> &nbsp;&nbsp;
-        <a href="https://www.facebook.com/navodlakshan.kankaniga"><i class='bx bxl-facebook'></i></a> &nbsp;&nbsp;
-    </p>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-about">
+                <img src="img/icon.png" alt="Navod's Logo" width="60">
+                <p>Software Engineer & UI/UX Designer creating digital experiences that matter.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/navod-lakshan-9949b1248/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/navodlakshan" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://twitter.com/NavodLaks6517" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/navod.lakshan_/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/navodlakshan.kankaniga" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#services">Web Development</a></li>
+                    <li><a href="#services">UI/UX Design</a></li>
+                    <li><a href="#services">App Development</a></li>
+                    <li><a href="#services">Frontend Development</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on my latest projects and articles.</p>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit"><i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Navod Lakshan Perera. All Rights Reserved.</p>
+        </div>
+    </div>
 </footer>
 
+<!-- Back to Top Button -->
 <div id="progress">
-        <span id="progress-value">
-            <i class='bx bxs-chevrons-up' ></i>
-        </span>
+    <span id="progress-value">
+        <i class='bx bxs-chevrons-up'></i>
+    </span>
 </div>
 
-<!-- scroll reveal  -->
-<script src="https://unpkg.com/scrollreveal"></script>
-<!-- Swiper JS -->
+<!-- JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<!-- mixitup cdn js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
