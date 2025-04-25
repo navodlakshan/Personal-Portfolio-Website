@@ -54,7 +54,8 @@ Hi, I'm Navod Lakshan Perera, a Software Engineer and a frontend developer from 
 ## Screenshots
 
 ### Home Page
-![Screenshot 2024-07-27 002629](https://github.com/user-attachments/assets/63342ddf-d737-467a-9bc5-5eba194f2d54)
+![image](https://github.com/user-attachments/assets/7b5e70e1-e76c-46c2-859e-ee788dfc04bf)
+
 
 ## Contact
 
