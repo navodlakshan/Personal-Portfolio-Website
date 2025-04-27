@@ -14,7 +14,7 @@
     --dark-color: #1a1a2e;
     --light-color: #f8f9fa;
     --text-color: #333;
-    --bg-color: #f0f0f4;
+    --bg-color: #e3edf7;
     --text-light: #6c757d;
     --gradient: linear-gradient(135deg, #CA44F8 0%, #500083 100%);
     --gradient-white-bg:linear-gradient(0deg, #ffffff 0%, #eeeff3 51%, #dce2e6 100%);
@@ -488,6 +488,7 @@ section{
 
 .about-content h2{
     color: var(--main-color);
+    font-size: 2.1rem;
 }
 
 .about-content h3{
@@ -628,6 +629,7 @@ section{
 
 .main-text .heading{
     color: var(--main-color);
+    font-size: 2.1rem;
 }
 
 .main-text span{
@@ -1011,6 +1013,7 @@ section{
 
 .section-header .heading{
     color: var(--main-color);
+    font-size: 2.1rem;
 }
 
 .section-header span{
